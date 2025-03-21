@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Outfit:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2de9b;
+
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+
+}
+
+button {
+    border: none;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 6px 6px 10px rgba(255, 255, 255, 1), -6px -6px 10px rgba(0, 0, 0, 1);
+    font-weight: 700;
+    font-size: 27px;
+    
+}
+
+.cal {
+    padding: 20px;
+    background: #202216;
+    border-radius: 36px;
+    box-shadow: -2px -5px 10px rgba(0, 0, 0, 0.9);
+}
+
+#input {
+    height: 100px;
+}
+
+.dgn {
+    box-shadow: inset 6px 10px rgba(255, 255, 255, 1), inset -6px 10px rgba(255, 255, 255, 1);
+}
+
+#input {
+    max-width: 300px;
+    text-align: center;
+    margin: 10px;
+    color: #ffffff;
+    overflow: hidden;
+    font-size: 50px;
+    font-family: "Orbitron", sans-serif;
+}
